@@ -1,0 +1,153 @@
+.dark {
+    display: inline-block;
+    margin-right: 50px;
+    position: absolute;
+    right: 45%;
+    top:2%;
+ 
+}
+
+
+.sun-span {
+    display: inline-block;
+    position: absolute;
+    right: 52%;
+    top: 2%;
+    font-size: 21px;
+    color: white;
+}
+
+.moon-span {
+    display: inline-block;
+    position: absolute;
+    right: 46%;
+    top: 2%;
+    font-size: 21px;
+    color:black;
+}
+
+
+.app-header {
+    background-color:#ce0505;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 28px;
+    color: #ce0505;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.logo_link {
+text-decoration: none;
+color: rgb(197, 0, 0);
+}
+
+.close-btnH {
+    display: inline-block;
+    margin-right: 1px;
+    margin-top: -6px;
+    font-size: 18px;
+    color: black;
+    color: var(--heading-color);
+}
+
+.googlebtn {
+    padding:15px 19px 14px 2px !important; 
+
+    
+}
+
+.user-button-gp {
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.user-login {
+    display: inline-block;
+    margin-right: 10px;
+
+
+
+}
+
+.user-signup {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.login-facebook {
+    font-family: Helvetica,sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .3s,border-color .3s;
+    background-color: #4c69ba;
+    border: calc(.06887vw + .67769px) solid #4c69ba;
+    padding: 12px 44px;
+}
+
+.loginModal {
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #192f60;
+    margin-left: 80px;
+    color: var(--heading-color);
+
+
+}
+.haveaccountL{
+    color: black; 
+    font-size: 20px;
+    color: var(--heading-color);
+
+}
+
+.haveaccount{
+color: var(--heading-color);
+}
+
+.Acc-name{
+    width: 382px;
+}
+
+@media only screen and (max-width: 600px){
+.dark {
+    display: inline-block;
+    margin-right: 50px;
+    position: absolute;
+    right: 69%;
+    top: 2%;
+}
+.sun-span {
+    display: none;
+}
+
+.moon-span {
+    display: none;
+}
+
+}
